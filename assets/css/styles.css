@@ -1,0 +1,6 @@
+@import './normalize.css';
+@import './form.css';
+
+.divider {
+  margin: 30px 0;
+}

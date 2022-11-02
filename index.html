@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+		<title>Homework #3</title>
+	</head>
+	<body>
+
+
+		<hr class="divider" />
+
+		<div class="wrapper">
+			<h2 class="page__title">Sign Up</h2>
+
+			<div class="form_wrap">
+				<form action="" method="get" class="form">
+					<input class="form__input" type="text" placeholder="Username" name="username" required />
+					<input
+						class="form__input"
+						type="password"
+						placeholder="Password"
+						name="password"
+						required
+					/>
+
+					<div class="radio__group">
+						<label class="radio__label" for="male">
+							<input type="radio" name="sex" id="male" value="male" />
+
+							<span class="label__text">Male</span>
+						</label>
+
+						<label class="radio__label" for="female">
+							<input type="radio" name="sex" id="female" value="female" />
+
+							<span class="label__text">Female</span>
+						</label>
+					</div>
+
+					<div class="radio__group_complex">
+						<label class="radio__label_complex" for="programmer">
+							<input
+								class="radio__item_complex"
+								type="radio"
+								name="hobby"
+								id="programmer"
+								value="programmer"
+							/>
+
+							<div class="label__text_complex">
+								<p class="label__text_usual">Programmer</p>
+								<p class="label__text_muted">Just a programmer nothing else</p>
+							</div>
+						</label>
+
+						<label class="radio__label_complex" for="designer">
+							<input
+								class="radio__item_complex"
+								type="radio"
+								name="hobby"
+								id="designer"
+								value="designer"
+							/>
+
+							<div class="label__text_complex">
+								<p class="label__text_usual">Designer</p>
+								<p class="label__text_muted">We are hiring!</p>
+							</div>
+						</label>
+
+						<label class="radio__label_complex" for="normal">
+							<input
+								class="radio__item_complex"
+								type="radio"
+								name="hobby"
+								id="normal"
+								value="normal"
+							/>
+
+							<div class="label__text_complex">
+								<p class="label__text_usual">Normal man</p>
+								<p class="label__text_muted">you !== programmer ? you = "Normal man"</p>
+							</div>
+						</label>
+					</div>
+
+					<div>
+						<textarea
+							class="form__input form__textarea"
+							placeholder="Your message"
+							name="message"
+						></textarea>
+					</div>
+
+					<div class="form__footer">
+						<button class="form__button form__button_cancel">
+							<span>Cancel</span>
+						</button>
+
+						<button class="form__button form__button_submit" type="submit">
+							<span>Submit</span>
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<p class="page__help">Already have an account? <a class="link" href="index.html">Login</a></p>
+		</div>
+	</body>
+</html>
