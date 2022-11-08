@@ -1,5 +1,5 @@
 # **Devolution Frontend Developer Course**
 
-## Homework 4. **CSS Fonts**
+## Homework 5. **CSS Blocks Properties**
 
-Github Pages link: [`Click here`](https://deeckoy.github.io/Devolution-Homework-4/)
+Github Pages link: [`Click here`](https://deeckoy.github.io/Devolution-Homework-5/)
